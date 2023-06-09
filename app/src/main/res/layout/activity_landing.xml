@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LandingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="chat.json" />
+
+            <TextView
+                android:id="@+id/mainText"
+                android:textAlignment="center"
+                android:layout_below="@id/animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth Chat App"
+                android:textSize="40dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/segoeuibold"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/subText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="By:Prashant Srivastav"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+</RelativeLayout>

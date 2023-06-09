@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">B Chat</string>
+    <string name="label_send">send</string>
+    <string name="menu_main_search_devices">Search Devices</string>
+    <string name="menu_main_bluetooth_on">Switch On Bluetooth</string>
+</resources>

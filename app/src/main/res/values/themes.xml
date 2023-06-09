@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+        <style name="Base.Theme.BChat" parent="Theme.Material3.DayNight">
+            <item name="windowActionBar">true</item>
+            <!-- Other theme attributes -->
+        </style>
+
+
+    <style name="Theme.BChat" parent="Base.Theme.BChat" />
+
+</resources>
